@@ -1,12 +1,12 @@
-# Tags: latest, 17.8.0-debian-10-r8, 17.8.0, 17-debian-10, 17
+# Tags: latest, 17.8.0-debian-10-r9, 17.8.0, 17-debian-10, 17
 FROM bitnami/node:latest
-FROM bitnami/node:17.8.0-debian-10-r8
+FROM bitnami/node:17.8.0-debian-10-r9
 FROM bitnami/node:17.8.0
 FROM bitnami/node:17-debian-10
 FROM bitnami/node:17
 
-# Tags: 16.14.2-debian-10-r13, 16.14.2, 16-debian-10, 16
-FROM bitnami/node:16.14.2-debian-10-r13
+# Tags: 16.14.2-debian-10-r14, 16.14.2, 16-debian-10, 16
+FROM bitnami/node:16.14.2-debian-10-r14
 FROM bitnami/node:16.14.2
 FROM bitnami/node:16-debian-10
 FROM bitnami/node:16
@@ -14,17 +14,29 @@ FROM bitnami/node:16
 # Tags: _
 FROM bitnami/node:_
 
-# Tags: 12.22.11-debian-10-r9, 12.22.11, 12-debian-10, 12
-FROM bitnami/node:12.22.11-debian-10-r9
+# Tags: 12.22.11-debian-10-r10, 12.22.11, 12-debian-10, 12
+FROM bitnami/node:12.22.11-debian-10-r10
 FROM bitnami/node:12.22.11
 FROM bitnami/node:12-debian-10
 FROM bitnami/node:12
 
-# Tags: 14.19.1-debian-10-r12, 14.19.1, 14-debian-10, 14
-FROM bitnami/node:14.19.1-debian-10-r12
+# Tags: 14.19.1-debian-10-r13, 14.19.1, 14-debian-10, 14
+FROM bitnami/node:14.19.1-debian-10-r13
 FROM bitnami/node:14.19.1
 FROM bitnami/node:14-debian-10
 FROM bitnami/node:14
+
+# Tags: 16.14.2-debian-10-r13
+FROM bitnami/node:16.14.2-debian-10-r13
+
+# Tags: 17.8.0-debian-10-r8
+FROM bitnami/node:17.8.0-debian-10-r8
+
+# Tags: 12.22.11-debian-10-r9
+FROM bitnami/node:12.22.11-debian-10-r9
+
+# Tags: 14.19.1-debian-10-r12
+FROM bitnami/node:14.19.1-debian-10-r12
 
 # Tags: 17.8.0-debian-10-r7
 FROM bitnami/node:17.8.0-debian-10-r7
@@ -393,6 +405,3 @@ FROM bitnami/node:16.14.0-debian-10-r19
 
 # Tags: 17.6.0-debian-10-r6
 FROM bitnami/node:17.6.0-debian-10-r6
-
-# Tags: 12.22.10-debian-10-r25
-FROM bitnami/node:12.22.10-debian-10-r25
