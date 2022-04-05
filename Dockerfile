@@ -1,12 +1,12 @@
-# Tags: latest, 17.8.0-debian-10-r9, 17.8.0, 17-debian-10, 17
+# Tags: latest, 17.8.0-debian-10-r13, 17.8.0, 17-debian-10, 17
 FROM bitnami/node:latest
-FROM bitnami/node:17.8.0-debian-10-r9
+FROM bitnami/node:17.8.0-debian-10-r13
 FROM bitnami/node:17.8.0
 FROM bitnami/node:17-debian-10
 FROM bitnami/node:17
 
-# Tags: 16.14.2-debian-10-r14, 16.14.2, 16-debian-10, 16
-FROM bitnami/node:16.14.2-debian-10-r14
+# Tags: 16.14.2-debian-10-r19, 16.14.2, 16-debian-10, 16
+FROM bitnami/node:16.14.2-debian-10-r19
 FROM bitnami/node:16.14.2
 FROM bitnami/node:16-debian-10
 FROM bitnami/node:16
@@ -14,17 +14,68 @@ FROM bitnami/node:16
 # Tags: _
 FROM bitnami/node:_
 
-# Tags: 12.22.11-debian-10-r10, 12.22.11, 12-debian-10, 12
-FROM bitnami/node:12.22.11-debian-10-r10
+# Tags: 16.14.2-debian-10-r18
+FROM bitnami/node:16.14.2-debian-10-r18
+
+# Tags: 12.22.11-debian-10-r14, 12.22.11, 12-debian-10, 12
+FROM bitnami/node:12.22.11-debian-10-r14
 FROM bitnami/node:12.22.11
 FROM bitnami/node:12-debian-10
 FROM bitnami/node:12
 
-# Tags: 14.19.1-debian-10-r13, 14.19.1, 14-debian-10, 14
-FROM bitnami/node:14.19.1-debian-10-r13
+# Tags: 14.19.1-debian-10-r17, 14.19.1, 14-debian-10, 14
+FROM bitnami/node:14.19.1-debian-10-r17
 FROM bitnami/node:14.19.1
 FROM bitnami/node:14-debian-10
 FROM bitnami/node:14
+
+# Tags: 17.8.0-debian-10-r12
+FROM bitnami/node:17.8.0-debian-10-r12
+
+# Tags: 16.14.2-debian-10-r17
+FROM bitnami/node:16.14.2-debian-10-r17
+
+# Tags: 12.22.11-debian-10-r13
+FROM bitnami/node:12.22.11-debian-10-r13
+
+# Tags: 14.19.1-debian-10-r16
+FROM bitnami/node:14.19.1-debian-10-r16
+
+# Tags: 17.8.0-debian-10-r11
+FROM bitnami/node:17.8.0-debian-10-r11
+
+# Tags: 16.14.2-debian-10-r16
+FROM bitnami/node:16.14.2-debian-10-r16
+
+# Tags: 12.22.11-debian-10-r12
+FROM bitnami/node:12.22.11-debian-10-r12
+
+# Tags: 14.19.1-debian-10-r15
+FROM bitnami/node:14.19.1-debian-10-r15
+
+# Tags: 12.22.11-debian-10-r11
+FROM bitnami/node:12.22.11-debian-10-r11
+
+# Tags: 17.8.0-debian-10-r10
+FROM bitnami/node:17.8.0-debian-10-r10
+
+# Tags: 16.14.2-debian-10-r15
+FROM bitnami/node:16.14.2-debian-10-r15
+
+# Tags: 14.19.1-debian-10-r14
+FROM bitnami/node:14.19.1-debian-10-r14
+
+# Tags: 17.8.0-debian-10-r9
+FROM bitnami/node:17.8.0-debian-10-r9
+
+# Tags: 16.14.2-debian-10-r14
+FROM bitnami/node:16.14.2-debian-10-r14
+
+# Tags: 12.22.11-debian-10-r10
+FROM bitnami/node:12.22.11-debian-10-r10
+
+# Tags: 14.19.1-debian-10-r13
+FROM bitnami/node:14.19.1-debian-10-r13
 
 # Tags: 16.14.2-debian-10-r13
 FROM bitnami/node:16.14.2-debian-10-r13
@@ -348,60 +399,3 @@ FROM bitnami/node:17.6.0-debian-10-r11
 
 # Tags: 12.22.10-debian-10-r30
 FROM bitnami/node:12.22.10-debian-10-r30
-
-# Tags: 14.19.0-debian-10-r30
-FROM bitnami/node:14.19.0-debian-10-r30
-
-# Tags: 16.14.0-debian-10-r23
-FROM bitnami/node:16.14.0-debian-10-r23
-
-# Tags: 17.6.0-debian-10-r10
-FROM bitnami/node:17.6.0-debian-10-r10
-
-# Tags: 12.22.10-debian-10-r29
-FROM bitnami/node:12.22.10-debian-10-r29
-
-# Tags: 14.19.0-debian-10-r29
-FROM bitnami/node:14.19.0-debian-10-r29
-
-# Tags: 16.14.0-debian-10-r22
-FROM bitnami/node:16.14.0-debian-10-r22
-
-# Tags: 17.6.0-debian-10-r9
-FROM bitnami/node:17.6.0-debian-10-r9
-
-# Tags: 12.22.10-debian-10-r28
-FROM bitnami/node:12.22.10-debian-10-r28
-
-# Tags: 16.14.0-debian-10-r21
-FROM bitnami/node:16.14.0-debian-10-r21
-
-# Tags: 14.19.0-debian-10-r28
-FROM bitnami/node:14.19.0-debian-10-r28
-
-# Tags: 17.6.0-debian-10-r8
-FROM bitnami/node:17.6.0-debian-10-r8
-
-# Tags: 12.22.10-debian-10-r27
-FROM bitnami/node:12.22.10-debian-10-r27
-
-# Tags: 14.19.0-debian-10-r27
-FROM bitnami/node:14.19.0-debian-10-r27
-
-# Tags: 16.14.0-debian-10-r20
-FROM bitnami/node:16.14.0-debian-10-r20
-
-# Tags: 17.6.0-debian-10-r7
-FROM bitnami/node:17.6.0-debian-10-r7
-
-# Tags: 12.22.10-debian-10-r26
-FROM bitnami/node:12.22.10-debian-10-r26
-
-# Tags: 14.19.0-debian-10-r26
-FROM bitnami/node:14.19.0-debian-10-r26
-
-# Tags: 16.14.0-debian-10-r19
-FROM bitnami/node:16.14.0-debian-10-r19
-
-# Tags: 17.6.0-debian-10-r6
-FROM bitnami/node:17.6.0-debian-10-r6
