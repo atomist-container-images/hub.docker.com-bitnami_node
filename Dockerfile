@@ -1,9 +1,30 @@
-# Tags: latest, 18.0.0-debian-10-r7, 18.0.0, 18-debian-10, 18
+# Tags: latest, 18.0.0-debian-10-r8, 18.0.0, 18-debian-10, 18
 FROM bitnami/node:latest
-FROM bitnami/node:18.0.0-debian-10-r7
+FROM bitnami/node:18.0.0-debian-10-r8
 FROM bitnami/node:18.0.0
 FROM bitnami/node:18-debian-10
 FROM bitnami/node:18
+
+# Tags: _
+FROM bitnami/node:_
+
+# Tags: 14.19.1-debian-10-r45, 14.19.1, 14-debian-10, 14
+FROM bitnami/node:14.19.1-debian-10-r45
+FROM bitnami/node:14.19.1
+FROM bitnami/node:14-debian-10
+FROM bitnami/node:14
+
+# Tags: 12.22.12-debian-10-r27, 12.22.12, 12-debian-10, 12
+FROM bitnami/node:12.22.12-debian-10-r27
+FROM bitnami/node:12.22.12
+FROM bitnami/node:12-debian-10
+FROM bitnami/node:12
+
+# Tags: 17.9.0-debian-10-r25, 17.9.0, 17-debian-10, 17
+FROM bitnami/node:17.9.0-debian-10-r25
+FROM bitnami/node:17.9.0
+FROM bitnami/node:17-debian-10
+FROM bitnami/node:17
 
 # Tags: 16.15.0-debian-10-r6, 16.15.0, 16-debian-10, 16
 FROM bitnami/node:16.15.0-debian-10-r6
@@ -11,26 +32,17 @@ FROM bitnami/node:16.15.0
 FROM bitnami/node:16-debian-10
 FROM bitnami/node:16
 
-# Tags: _
-FROM bitnami/node:_
+# Tags: 18.0.0-debian-10-r7
+FROM bitnami/node:18.0.0-debian-10-r7
 
-# Tags: 14.19.1-debian-10-r44, 14.19.1, 14-debian-10, 14
+# Tags: 14.19.1-debian-10-r44
 FROM bitnami/node:14.19.1-debian-10-r44
-FROM bitnami/node:14.19.1
-FROM bitnami/node:14-debian-10
-FROM bitnami/node:14
 
-# Tags: 12.22.12-debian-10-r26, 12.22.12, 12-debian-10, 12
+# Tags: 12.22.12-debian-10-r26
 FROM bitnami/node:12.22.12-debian-10-r26
-FROM bitnami/node:12.22.12
-FROM bitnami/node:12-debian-10
-FROM bitnami/node:12
 
-# Tags: 17.9.0-debian-10-r24, 17.9.0, 17-debian-10, 17
+# Tags: 17.9.0-debian-10-r24
 FROM bitnami/node:17.9.0-debian-10-r24
-FROM bitnami/node:17.9.0
-FROM bitnami/node:17-debian-10
-FROM bitnami/node:17
 
 # Tags: 16.15.0-debian-10-r5
 FROM bitnami/node:16.15.0-debian-10-r5
@@ -397,9 +409,3 @@ FROM bitnami/node:12.22.11-debian-10-r13
 
 # Tags: 14.19.1-debian-10-r16
 FROM bitnami/node:14.19.1-debian-10-r16
-
-# Tags: 17.8.0-debian-10-r11
-FROM bitnami/node:17.8.0-debian-10-r11
-
-# Tags: 16.14.2-debian-10-r16
-FROM bitnami/node:16.14.2-debian-10-r16
